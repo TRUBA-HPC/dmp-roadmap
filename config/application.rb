@@ -47,6 +47,9 @@ module DMPRoadmap
 
     # Set the default host for mailer URLs
     config.action_mailer.default_url_options = { host: Socket.gethostname.to_s }
+    config.i18n.enforce_available_locales = false
+    I18n.config.enforce_available_locales = false
+    config.i18n.available_locales = [:"en-US"]
 
   end
 
