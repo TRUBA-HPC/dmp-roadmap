@@ -50,6 +50,7 @@ coverage
 config/database.yml
 config/secrets.yml
 config/branding.yml
+config/credentials.yml
 
 # Ignore some of the initializers
 config/initializers/wicked_pdf.rb
